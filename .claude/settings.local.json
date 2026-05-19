@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" status)",
-      "Bash(git ls-remote *)"
+      "Bash(git ls-remote *)",
+      "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" log --oneline -5)"
     ]
   }
 }
