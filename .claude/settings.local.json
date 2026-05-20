@@ -3,7 +3,21 @@
     "allow": [
       "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" status)",
       "Bash(git ls-remote *)",
-      "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" log --oneline -5)"
+      "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" log --oneline -5)",
+      "Bash(ffmpeg -version)",
+      "Bash(winget --version)",
+      "Bash(winget install *)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffmpeg.exe -i c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1.mp4 -c:v libx264 -pix_fmt yuv420p -profile:v main -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart -an c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_fixed.mp4 -y)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffprobe.exe -v error -show_entries stream=codec_name,color_space,color_primaries,color_transfer,pix_fmt,width,height c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_fixed.mp4)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffprobe.exe -v error -show_entries stream=codec_name,color_space,color_primaries,color_transfer,pix_fmt,width,height c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1.mp4)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffmpeg.exe -i c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1.mp4 -c:v libx264 -pix_fmt yuv420p -profile:v main -x264-params colorprim=bt709:transfer=bt709:colormatrix=bt709 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart -an c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_fixed.mp4 -y)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffmpeg.exe -i c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_fixed.mp4 -c:v libx264 -pix_fmt yuv420p -profile:v main -x264-params colorprim=bt709:transfer=bt709:colormatrix=bt709 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart -an c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_v2.mp4 -y)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffprobe.exe -v error -show_entries stream=codec_name,color_space,color_primaries,color_transfer,pix_fmt,width,height c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_v2.mp4)",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffmpeg.exe -i c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_v2.mp4 -c:v libx264 -pix_fmt yuv420p -profile:v baseline -level 4.0 -x264-params colorprim=bt709:transfer=bt709:colormatrix=bt709 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart -an c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/UpdateVideo1_v3.mp4 -y)",
+      "Bash(curl -L -o \"c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/test_sample.mp4\" \"https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4\")",
+      "Bash(curl -L -o \"c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/test_sample.mp4\" \"https://download.samplelib.com/mp4/sample-5s.mp4\")",
+      "Bash(/c/Users/Giworks/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.1-full_build/bin/ffprobe.exe -v error -show_entries stream=codec_name,profile,color_space,color_primaries,color_transfer,pix_fmt,width,height,duration c:/Unity_Project/Incheon_StudentUnificationHall/Assets/Video/test_sample.mp4)",
+      "Bash(git -C \"c:/Unity_Project/Incheon_StudentUnificationHall\" status --short)"
     ]
   }
 }
